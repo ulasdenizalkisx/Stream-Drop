@@ -1,21 +1,24 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import "./css/Profile.css";
 
 function Profile() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [profilePicture, setProfilePicture] = useState("");
+    const [name, setName] = useState("Mock User");
+    const [email, setEmail] = useState("mock@example.com");
+    const [profilePicture, setProfilePicture] = useState("https://via.placeholder.com/150");
+    const [follower, setFollower] = useState("1234");
 
     const getUser = async () => {
         try {
             const res = await axios.get("/api/me");
-            const { display_name, email, images } = res.data;
+            const { display_name, email, images, followers } = res.data;
             setName(display_name);
             setEmail(email);
             setProfilePicture(images[0].url);
+            setFollower(followers.total);
         } catch (e) {
             console.error("Failed to fetch profile", e);
-            window.location.href = "/";
+            // window.location.href = "/";
         }
     }
 
@@ -25,11 +28,18 @@ function Profile() {
 
     return (
         <>
-            <div className="alligner">
-                <h1>Profile</h1>
-                <p>Name: {name}</p>
-                <p>Email: {email}</p>
-                <img src={profilePicture} alt="Profile" />
+            <div className="profile">
+                <div className="profile-photo">
+                    <img src={profilePicture} alt="Profile" />
+                </div>
+                <div className="profile-info">
+                    <h1>{name}</h1>
+                    <p>{email}</p>
+                    <p>{follower}</p>
+                </div>
+                <div className="logo">
+
+                </div>
             </div>
         </>
     )

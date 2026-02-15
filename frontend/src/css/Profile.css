@@ -1,6 +1,7 @@
-.alligner {
+.profile {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    gap: 1rem;
 }
