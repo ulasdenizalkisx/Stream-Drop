@@ -1,6 +1,7 @@
 import './css/LoginPage.css'
 import Navbar from '../src/ui/navbar'
 import { Activity, Play } from 'lucide-react'
+import Footer from '../src/ui/footer'
 
 function LoginPage() {
 
@@ -9,7 +10,7 @@ function LoginPage() {
       <Navbar />
       <div className="welcoming">
         <div className="activity">
-          <Activity size={20} color="#00DA5A" /> <p>DEEP DIVE INTO YOUR MUSIC</p>
+          <Activity size={18} color="#00DA5A" /> <p>DEEP DIVE INTO YOUR MUSIC</p>
         </div>
         <h1 className="welcoming-title">
           <span className="title">Your Listening</span>
@@ -23,6 +24,7 @@ function LoginPage() {
           <Play size={20} className="play-button" />
         </button>
       </div>
+      <Footer />
     </>
   )
 }

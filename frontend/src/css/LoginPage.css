@@ -12,7 +12,9 @@
     justify-content: center;
     padding: clamp(1rem, 10vw, 10rem);
     border-top: 1px solid color-mix(in srgb, #fff 60%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, #fff 60%, transparent);
     gap: 2rem;
+    position: relative;
 }
 
 .welcoming::before {

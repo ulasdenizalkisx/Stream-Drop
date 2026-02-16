@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    color: color-mix(in srgb, #fff 60%, transparent);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: clamp(0.5rem, 1.5vw, 1rem);
+}
+
+
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.github-logo {
+    width: 2rem;
+    height: 2rem;
+}
