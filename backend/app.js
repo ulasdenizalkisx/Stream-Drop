@@ -6,7 +6,8 @@ const path = require("path");
 const axios = require("axios");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: path.join(__dirname, "config/.env") });
+const envPath = path.join(__dirname, "config/.env");
+dotenv.config({ path: envPath });
 
 function base64url(buf) {
     return buf
@@ -219,6 +220,7 @@ app.get(/.*/, (req, res) => {
     res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
 });
 
-app.listen(3000, () => {
-    console.log("Server started on port 3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
 });

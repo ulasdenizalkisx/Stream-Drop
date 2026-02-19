@@ -8,7 +8,6 @@ import History from "./ui/history";
 import Music from "./ui/music";
 import Artists from "./ui/artists";
 import Albums from "./ui/albums";
-import deneme from "./assets/deneme2.jpg";
 
 function Profile() {
     const [searchParams] = useSearchParams();
