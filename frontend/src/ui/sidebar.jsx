@@ -6,7 +6,6 @@ import { LayoutDashboard, History, Music, Mic2, Disc } from "lucide-react";
 
 function Sidebar() {
     const [name, setName] = useState("Mock User");
-    const [email, setEmail] = useState("mock@example.com");
     const [profilePicture, setProfilePicture] = useState("https://via.placeholder.com/150");
     const [follower, setFollower] = useState("1234");
 
@@ -14,11 +13,10 @@ function Sidebar() {
 
     const getUser = async () => {
         try {
-            const res = await axios.get("/api/me");
-            const { display_name, email, images, followers } = res.data;
+            const res = await axios.get("/api/me", { withCredentials: true });
+            const { display_name, images, followers } = res.data;
             setName(display_name);
-            setEmail(email);
-            setProfilePicture(images?.[0]?.url || "https://via.placeholder.com/150");
+            setProfilePicture(images?.[1]?.url || "https://via.placeholder.com/150");
             setFollower(followers?.total ?? "0");
         } catch (e) {
             console.error("Failed to fetch profile", e);
@@ -35,7 +33,7 @@ function Sidebar() {
         <div className="sidebar">
             <div className="logo">
                 <img className="logo-img" src={logo} alt="Logo" />
-                <p className="logo-text">Stream Drop</p>
+                <a href="/profile" className="logo-text">Stream Drop</a>
             </div>
 
             <div className="pages">
