@@ -15,6 +15,39 @@ function base64url(buf) {
         .replace(/=+$/g, "");
 }
 
+function computeTopAlbumFromTracks(tracks) {
+    const albumMap = new Map();
+
+    const limit = tracks.length;
+
+    tracks.forEach((t, index) => {
+        const album = t.album;
+        if (!album?.id) return;
+
+        const weight = (limit - index);
+        const entry = albumMap.get(album.id) || {
+            albumId: album.id,
+            albumName: album.name,
+            albumImage: album.images?.[0]?.url,
+            score: 0,
+            trackCount: 0,
+            albumArtists: album.artists.map((artist) => artist.name).join(", "),
+            albumReleaseDate: album.release_date,
+        };
+
+        entry.score += weight;
+        entry.trackCount += 1;
+
+        albumMap.set(album.id, entry);
+    });
+
+    const albums = Array.from(albumMap.values());
+    albums.sort((a, b) => b.score - a.score);
+
+    return albums[0] || null;
+}
+
+
 app.use(
     session({
         secret: process.env.SESSION_SECRET,
@@ -23,7 +56,7 @@ app.use(
         cookie: {
             secure: false,
             httpOnly: true,
-            maxAge: 60 * 60,
+            maxAge: 60 * 60 * 1000,
         },
     })
 );
@@ -84,8 +117,9 @@ app.get("/api/auth/spotify/callback", async (req, res) => {
         console.error(e);
         res.status(500).send("Token error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
     }
-    res.redirect("/profile");
-
+    req.session.save(() => {
+        res.redirect("/profile");
+    });
 });
 
 app.get("/api/me", async (req, res) => {
@@ -93,13 +127,49 @@ app.get("/api/me", async (req, res) => {
     if (!access_token) {
         return res.status(401).send("Unauthorized");
     }
+    if (req.session.user) {
+        return res.json(req.session.user);
+    }
     const user = await axios.get("https://api.spotify.com/v1/me", {
         headers: {
             Authorization: `Bearer ${access_token}`,
         },
     });
-    const { display_name, email, images } = user.data;
-    res.json({ display_name, email, images });
+    const { display_name, email, images, followers } = user.data;
+    const userData = { display_name, email, images, followers };
+    req.session.user = userData;
+    res.json(userData);
+});
+
+app.get("/api/top", async (req, res) => {
+    const { time_range } = req.query;
+    const { access_token } = req.session;
+    if (!access_token) {
+        return res.status(401).send("Unauthorized");
+    }
+    try {
+        const [topTrack, topArtist] = await Promise.all([
+            axios.get("https://api.spotify.com/v1/me/top/tracks", {
+                headers: { Authorization: `Bearer ${access_token}` },
+                params: { time_range: time_range, limit: 50 },
+            }),
+            axios.get("https://api.spotify.com/v1/me/top/artists", {
+                headers: { Authorization: `Bearer ${access_token}` },
+                params: { time_range: time_range, limit: 1 },
+            })
+        ]);
+
+        const topAlbumItems = computeTopAlbumFromTracks(topTrack.data.items);
+        const topTrackItems = topTrack.data.items;
+        const topArtistItems = topArtist.data.items;
+
+
+        res.json({ topTrackItems, topArtistItems, topAlbumItems });
+    }
+    catch (e) {
+        res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
+    }
+
 });
 
 
