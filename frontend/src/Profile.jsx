@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 import "./css/Profile.css";
 import Sidebar from "./ui/sidebar";
 import Overview from "./ui/overview";
+import History from "./ui/history";
+import Music from "./ui/music";
+import Artists from "./ui/artists";
+import Albums from "./ui/albums";
 import deneme from "./assets/deneme.jpg";
 import deneme2 from "./assets/deneme2.jpg";
 
@@ -14,7 +18,7 @@ function Profile() {
     const [profilePicture, setProfilePicture] = useState("https://via.placeholder.com/150");
     const [follower, setFollower] = useState("0");
     const [isLoading, setIsLoading] = useState(false);
-
+    const [activeItem, setActiveItem] = useState("overview");
 
     const [timeRange, setTimeRange] = useState("long_term");
 
@@ -30,10 +34,6 @@ function Profile() {
                 window.location.href = "/";
             }
         }
-    }
-
-    const artists = (song) => {
-        return song.artists.map((artist) => artist.name).join(", ");
     }
 
     const getTop = async () => {
@@ -72,7 +72,7 @@ function Profile() {
 
     return (
         <div className="container">
-            <Sidebar />
+            <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} />
             <div className="content">
                 <div className="top-bar">
                     <div className="title-div">
@@ -108,7 +108,17 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <Overview />
+                {activeItem === "overview" ? (
+                    <Overview timeRange={timeRange} setTimeRange={setTimeRange} />
+                ) : activeItem === "history" ? (
+                    <History timeRange={timeRange} setTimeRange={setTimeRange} />
+                ) : activeItem === "music" ? (
+                    <Music timeRange={timeRange} setTimeRange={setTimeRange} />
+                ) : activeItem === "artists" ? (
+                    <Artists timeRange={timeRange} setTimeRange={setTimeRange} />
+                ) : activeItem === "albums" ? (
+                    <Albums timeRange={timeRange} setTimeRange={setTimeRange} />
+                ) : null}
             </div>
         </div>
     )

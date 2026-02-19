@@ -4,12 +4,10 @@ import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { LayoutDashboard, History, Music, Mic2, Disc } from "lucide-react";
 
-function Sidebar() {
+function Sidebar({ activeItem, setActiveItem }) {
     const [name, setName] = useState("Mock User");
     const [profilePicture, setProfilePicture] = useState("https://via.placeholder.com/150");
     const [follower, setFollower] = useState("1234");
-
-    const [activeItem, setActiveItem] = useState("overview");
 
     const getUser = async () => {
         try {

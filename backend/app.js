@@ -65,7 +65,7 @@ app.get("/api/login-spotify", (req, res) => {
     const state = base64url(crypto.randomBytes(16));
     req.session.spotify_oauth_state = state;
     req.session.save(() => {
-        const scope = ["user-read-email", "user-read-private", "user-top-read"].join(" ");
+        const scope = ["user-read-email", "user-read-private", "user-top-read", "user-read-recently-played"].join(" ");
         const params = new URLSearchParams({
             response_type: "code",
             client_id: process.env.SPOTIFY_CLIENT_ID,
@@ -170,6 +170,24 @@ app.get("/api/top", async (req, res) => {
         res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
     }
 
+});
+
+app.get("/api/recent", async (req, res) => {
+    const limit = req.query.limit;
+    const { access_token } = req.session;
+    if (!access_token) {
+        return res.status(401).send("Unauthorized");
+    }
+    try {
+        const recentTracks = await axios.get("https://api.spotify.com/v1/me/player/recently-played", {
+            headers: { Authorization: `Bearer ${access_token}` },
+            params: { limit: limit },
+        });
+        res.json(recentTracks.data.items);
+    }
+    catch (e) {
+        res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
+    }
 });
 
 
