@@ -3,21 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Clock, Music2 } from "lucide-react";
 
-function Overview({ timeRange, setTimeRange }) {
-    const [recent, setRecent] = useState([]);
-
-    const getRecent = async () => {
-        const res = await axios.get("/api/recent", {
-            params: {
-                limit: 5
-            }
-        });
-        setRecent(res.data);
-    };
-
-    useEffect(() => {
-        getRecent();
-    }, []);
+function Overview({ recent = [], isLoading }) {
 
     const formatTime = (isoString) => {
         if (!isoString) return "";
@@ -45,7 +31,7 @@ function Overview({ timeRange, setTimeRange }) {
                 </div>
 
                 <div className="recent-list">
-                    {recent.length === 0 ? (
+                    {isLoading ? (
                         <div className="recent-empty">
                             <Music2 size={32} className="recent-empty-icon" />
                             <p>Loading tracks…</p>

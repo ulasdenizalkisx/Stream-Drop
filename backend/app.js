@@ -4,8 +4,9 @@ const session = require("express-session");
 const crypto = require("crypto");
 const path = require("path");
 const axios = require("axios");
-require("dotenv").config({ path: './config/.env' });
+const dotenv = require("dotenv");
 
+dotenv.config({ path: path.join(__dirname, "config/.env") });
 
 function base64url(buf) {
     return buf
@@ -44,7 +45,7 @@ function computeTopAlbumFromTracks(tracks) {
     const albums = Array.from(albumMap.values());
     albums.sort((a, b) => b.score - a.score);
 
-    return albums[0] || null;
+    return albums;
 }
 
 
@@ -63,7 +64,11 @@ app.use(
 
 app.get("/api/login-spotify", (req, res) => {
     const state = base64url(crypto.randomBytes(16));
+    const next = req.query.next;
     req.session.spotify_oauth_state = state;
+    if (next) {
+        req.session.next = next;
+    }
     req.session.save(() => {
         const scope = ["user-read-email", "user-read-private", "user-top-read", "user-read-recently-played"].join(" ");
         const params = new URLSearchParams({
@@ -81,6 +86,7 @@ app.get("/api/login-spotify", (req, res) => {
 
 app.get("/api/auth/spotify/callback", async (req, res) => {
     const { code, state, error } = req.query;
+    console.log("Callback hit. Code:", !!code, "State:", state, "Error:", error);
 
     if (error) {
         return res.status(400).send(`Spotify auth error: ${error}`);
@@ -93,6 +99,7 @@ app.get("/api/auth/spotify/callback", async (req, res) => {
     delete req.session.spotify_oauth_state;
 
     try {
+        console.log("Exchanging code for token with redirect_uri:", process.env.SPOTIFY_REDIRECT_URI);
         const tokenRes = await axios.post("https://accounts.spotify.com/api/token",
             new URLSearchParams({
                 grant_type: "authorization_code",
@@ -118,7 +125,13 @@ app.get("/api/auth/spotify/callback", async (req, res) => {
         res.status(500).send("Token error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
     }
     req.session.save(() => {
-        res.redirect("/profile");
+        const next = req.session.next;
+        delete req.session.next;
+        if (next) {
+            res.redirect(`/profile?page=${next}`);
+        } else {
+            res.redirect("/profile");
+        }
     });
 });
 
@@ -130,15 +143,19 @@ app.get("/api/me", async (req, res) => {
     if (req.session.user) {
         return res.json(req.session.user);
     }
-    const user = await axios.get("https://api.spotify.com/v1/me", {
-        headers: {
-            Authorization: `Bearer ${access_token}`,
-        },
-    });
-    const { display_name, email, images, followers } = user.data;
-    const userData = { display_name, email, images, followers };
-    req.session.user = userData;
-    res.json(userData);
+    try {
+        const user = await axios.get("https://api.spotify.com/v1/me", {
+            headers: {
+                Authorization: `Bearer ${access_token}`,
+            },
+        });
+        const { display_name, email, images, followers } = user.data;
+        const userData = { display_name, email, images, followers };
+        req.session.user = userData;
+        res.json(userData);
+    } catch (e) {
+        res.status(500).send("Error fetching user info");
+    }
 });
 
 app.get("/api/top", async (req, res) => {
@@ -155,7 +172,7 @@ app.get("/api/top", async (req, res) => {
             }),
             axios.get("https://api.spotify.com/v1/me/top/artists", {
                 headers: { Authorization: `Bearer ${access_token}` },
-                params: { time_range: time_range, limit: 1 },
+                params: { time_range: time_range, limit: 50 },
             })
         ]);
 
@@ -167,7 +184,10 @@ app.get("/api/top", async (req, res) => {
         res.json({ topTrackItems, topArtistItems, topAlbumItems });
     }
     catch (e) {
-        res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
+        if (e.response && (e.response.status === 401 || e.response.status === 429)) {
+            return res.status(e.response.status).send(e.response.status === 401 ? "Unauthorized" : "Too Many Requests");
+        }
+        return res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
     }
 
 });
@@ -186,10 +206,12 @@ app.get("/api/recent", async (req, res) => {
         res.json(recentTracks.data.items);
     }
     catch (e) {
+        if (e.response && (e.response.status === 401 || e.response.status === 429)) {
+            return res.status(e.response.status).send(e.response.status === 401 ? "Unauthorized" : "Too Many Requests");
+        }
         res.status(500).send("Error: " + (e.response ? JSON.stringify(e.response.data) : e.message));
     }
 });
-
 
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 

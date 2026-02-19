@@ -5,6 +5,10 @@ import Footer from '../src/ui/footer'
 
 function LoginPage() {
 
+  const login = () => {
+    window.location.href = "/api/login-spotify";
+  }
+
   return (
     <>
       <Navbar />
@@ -19,7 +23,7 @@ function LoginPage() {
         <p className="welcoming-footer">Uncover your top tracks, favorite genres, and listening habits with beautiful,
           real-time analytics and visualizers.
         </p>
-        <button className="bottom-button">
+        <button className="bottom-button" onClick={() => login()}>
           <p>Get Started</p>
           <Play size={20} className="play-button" />
         </button>

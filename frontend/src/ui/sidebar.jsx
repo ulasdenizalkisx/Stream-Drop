@@ -4,26 +4,7 @@ import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { LayoutDashboard, History, Music, Mic2, Disc } from "lucide-react";
 
-function Sidebar({ activeItem, setActiveItem }) {
-    const [name, setName] = useState("Mock User");
-    const [profilePicture, setProfilePicture] = useState("https://via.placeholder.com/150");
-    const [follower, setFollower] = useState("1234");
-
-    const getUser = async () => {
-        try {
-            const res = await axios.get("/api/me", { withCredentials: true });
-            const { display_name, images, followers } = res.data;
-            setName(display_name);
-            setProfilePicture(images?.[1]?.url || "https://via.placeholder.com/150");
-            setFollower(followers?.total ?? "0");
-        } catch (e) {
-            console.error("Failed to fetch profile", e);
-        }
-    };
-
-    useEffect(() => {
-        getUser();
-    }, []);
+function Sidebar({ activeItem, setActiveItem, userName, profilePicture, follower }) {
 
     const isActive = (key) => activeItem === key;
 
@@ -74,7 +55,7 @@ function Sidebar({ activeItem, setActiveItem }) {
             <div className="profile">
                 <img className="profile-picture" src={profilePicture} alt="Profile" />
                 <div className="profile-info">
-                    <p className="profile-name">{name}</p>
+                    <p className="profile-name">{userName}</p>
                     <p className="profile-follower">{follower} followers</p>
                 </div>
             </div>

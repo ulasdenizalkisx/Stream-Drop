@@ -3,26 +3,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Clock, History as HistoryIcon, Music2, ChevronDown } from "lucide-react";
 
-function History() {
-    const [history, setHistory] = useState([]);
+function History({ history = [], isLoading }) {
     const [visibleCount, setVisibleCount] = useState(20);
-
-    const getHistory = async () => {
-        try {
-            const res = await axios.get("/api/recent", {
-                params: {
-                    limit: 50
-                }
-            });
-            setHistory(res.data);
-        } catch (e) {
-            console.error("Failed to fetch history", e);
-        }
-    };
-
-    useEffect(() => {
-        getHistory();
-    }, []);
 
     const formatTime = (isoString) => {
         if (!isoString) return "";
@@ -54,7 +36,12 @@ function History() {
                 </div>
 
                 <div className="recent-list">
-                    {history.length === 0 ? (
+                    {isLoading ? (
+                        <div className="recent-empty">
+                            <Music2 size={32} className="recent-empty-icon" />
+                            <p>Loading tracks…</p>
+                        </div>
+                    ) : history.length === 0 ? (
                         <div className="recent-empty">
                             <Music2 size={32} className="recent-empty-icon" />
                             <p>Loading history…</p>
