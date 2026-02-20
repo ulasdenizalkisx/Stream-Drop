@@ -33,6 +33,7 @@ function Profile() {
             setFollower(res.data?.followers?.total ?? "0");
         } catch (e) {
             console.error("Failed to fetch profile", e);
+            throw e;
         }
     }
 
@@ -45,6 +46,7 @@ function Profile() {
             setRecentTracks(res.data || []);
         } catch (e) {
             console.error("Failed to fetch recent", e);
+            throw e;
         }
     }
 
@@ -76,6 +78,7 @@ function Profile() {
             await Promise.all([getUser(), getRecent()]);
         } catch (e) {
             console.error("Failed to load initial data", e);
+            window.location.href = "/";
         } finally {
             setIsLoading(false);
         }

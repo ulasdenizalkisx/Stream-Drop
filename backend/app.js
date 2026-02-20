@@ -49,7 +49,6 @@ function computeTopAlbumFromTracks(tracks) {
     return albums;
 }
 
-
 app.use(
     session({
         secret: process.env.SESSION_SECRET,
