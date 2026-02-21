@@ -1,0 +1,3812 @@
+[
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/2y43Y78ueoesO5T4mtvsXj"
+            },
+            "href": "https://api.spotify.com/v1/albums/2y43Y78ueoesO5T4mtvsXj",
+            "id": "2y43Y78ueoesO5T4mtvsXj",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f11ac5d98c62ff0200d4537d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f11ac5d98c62ff0200d4537d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f11ac5d98c62ff0200d4537d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "AQUAFINA",
+            "release_date": "2025-07-25",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:2y43Y78ueoesO5T4mtvsXj"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 147888,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/2cbgLYxRK6exbeKyz4YrD3"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2cbgLYxRK6exbeKyz4YrD3",
+        "id": "2cbgLYxRK6exbeKyz4YrD3",
+        "is_local": false,
+        "is_playable": true,
+        "name": "AQUAFINA",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2cbgLYxRK6exbeKyz4YrD3"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                    "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                    "name": "Ezhel",
+                    "type": "artist",
+                    "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7pSGtJE2RQjIGwdkgKZpwY"
+            },
+            "href": "https://api.spotify.com/v1/albums/7pSGtJE2RQjIGwdkgKZpwY",
+            "id": "7pSGtJE2RQjIGwdkgKZpwY",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2733caf798b8cb202d543f85bd7",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e023caf798b8cb202d543f85bd7",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048513caf798b8cb202d543f85bd7",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Derdo",
+            "release_date": "2024-11-22",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:7pSGtJE2RQjIGwdkgKZpwY"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                },
+                "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                "name": "Ezhel",
+                "type": "artist",
+                "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218049,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/0O8jfIL9rjYbWRypxBA9LN"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0O8jfIL9rjYbWRypxBA9LN",
+        "id": "0O8jfIL9rjYbWRypxBA9LN",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Derdo",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0O8jfIL9rjYbWRypxBA9LN"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                    "id": "51DevdOxIJin6DB1FXJpD1",
+                    "name": "UZI",
+                    "type": "artist",
+                    "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7wOVZ7Rjv27Gl0kuMhEAyS"
+            },
+            "href": "https://api.spotify.com/v1/albums/7wOVZ7Rjv27Gl0kuMhEAyS",
+            "id": "7wOVZ7Rjv27Gl0kuMhEAyS",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f28269ed4bbcd8ebc756d198",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f28269ed4bbcd8ebc756d198",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f28269ed4bbcd8ebc756d198",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Mortal Kombat",
+            "release_date": "2026-01-23",
+            "release_date_precision": "day",
+            "total_tracks": 9,
+            "type": "album",
+            "uri": "spotify:album:7wOVZ7Rjv27Gl0kuMhEAyS"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                },
+                "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                "id": "51DevdOxIJin6DB1FXJpD1",
+                "name": "UZI",
+                "type": "artist",
+                "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5xJyOj6mbF15SyNr4Qht9v"
+                },
+                "href": "https://api.spotify.com/v1/artists/5xJyOj6mbF15SyNr4Qht9v",
+                "id": "5xJyOj6mbF15SyNr4Qht9v",
+                "name": "JEYJEY",
+                "type": "artist",
+                "uri": "spotify:artist:5xJyOj6mbF15SyNr4Qht9v"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 155611,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1fHfEGLvswpChuTEJKbLAA"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1fHfEGLvswpChuTEJKbLAA",
+        "id": "1fHfEGLvswpChuTEJKbLAA",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Mortal Kombat",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1fHfEGLvswpChuTEJKbLAA"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1wRU9DVyKSF1BCHE0PXDuE"
+                },
+                "href": "https://api.spotify.com/v1/artists/1wRU9DVyKSF1BCHE0PXDuE",
+                "id": "1wRU9DVyKSF1BCHE0PXDuE",
+                "name": "Pango",
+                "type": "artist",
+                "uri": "spotify:artist:1wRU9DVyKSF1BCHE0PXDuE"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 116534,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/5Ipef1wERsAvM8pJX70vVU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Ipef1wERsAvM8pJX70vVU",
+        "id": "5Ipef1wERsAvM8pJX70vVU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "otelden otele",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:5Ipef1wERsAvM8pJX70vVU"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6vXjdCR5h6lbUeNR6tOXQA"
+            },
+            "href": "https://api.spotify.com/v1/albums/6vXjdCR5h6lbUeNR6tOXQA",
+            "id": "6vXjdCR5h6lbUeNR6tOXQA",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27316daaeb2f3bef09d68ccfcea",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0216daaeb2f3bef09d68ccfcea",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485116daaeb2f3bef09d68ccfcea",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan v1",
+            "release_date": "2024-04-26",
+            "release_date_precision": "day",
+            "total_tracks": 7,
+            "type": "album",
+            "uri": "spotify:album:6vXjdCR5h6lbUeNR6tOXQA"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 138193,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/2WVg3jpFowJUjfltvRKopM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2WVg3jpFowJUjfltvRKopM",
+        "id": "2WVg3jpFowJUjfltvRKopM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "microdose",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2WVg3jpFowJUjfltvRKopM"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 113732,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/5E9anDvG0rJmrJvvos35xx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5E9anDvG0rJmrJvvos35xx",
+        "id": "5E9anDvG0rJmrJvvos35xx",
+        "is_local": false,
+        "is_playable": true,
+        "name": "LOADED",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5E9anDvG0rJmrJvvos35xx"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0psj0eABrCNIcYLIuDw21A"
+                },
+                "href": "https://api.spotify.com/v1/artists/0psj0eABrCNIcYLIuDw21A",
+                "id": "0psj0eABrCNIcYLIuDw21A",
+                "name": "Bar B",
+                "type": "artist",
+                "uri": "spotify:artist:0psj0eABrCNIcYLIuDw21A"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 169067,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3r7PppgxEpLnpfu2pw3fZe"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3r7PppgxEpLnpfu2pw3fZe",
+        "id": "3r7PppgxEpLnpfu2pw3fZe",
+        "is_local": false,
+        "is_playable": true,
+        "name": "en iyilerden bile",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:3r7PppgxEpLnpfu2pw3fZe"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 228999,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/04mbiMWVqGIwgJLUnFRh0l"
+        },
+        "href": "https://api.spotify.com/v1/tracks/04mbiMWVqGIwgJLUnFRh0l",
+        "id": "04mbiMWVqGIwgJLUnFRh0l",
+        "is_local": false,
+        "is_playable": true,
+        "name": "EXORCIST",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:04mbiMWVqGIwgJLUnFRh0l"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 161902,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/7klikFw6gUHyG9MH62NxCN"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7klikFw6gUHyG9MH62NxCN",
+        "id": "7klikFw6gUHyG9MH62NxCN",
+        "is_local": false,
+        "is_playable": true,
+        "name": "dragon",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:7klikFw6gUHyG9MH62NxCN"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 197068,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/5xiUucHl1sGMMaD7b34dTM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5xiUucHl1sGMMaD7b34dTM",
+        "id": "5xiUucHl1sGMMaD7b34dTM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "mantra",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5xiUucHl1sGMMaD7b34dTM"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 201428,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/60gyWgnrvVclxBgFir8KgO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/60gyWgnrvVclxBgFir8KgO",
+        "id": "60gyWgnrvVclxBgFir8KgO",
+        "is_local": false,
+        "is_playable": true,
+        "name": "BERMUDA",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:60gyWgnrvVclxBgFir8KgO"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7q6wy08a2IA2NeNfpwBnaB"
+                },
+                "href": "https://api.spotify.com/v1/artists/7q6wy08a2IA2NeNfpwBnaB",
+                "id": "7q6wy08a2IA2NeNfpwBnaB",
+                "name": "Murda",
+                "type": "artist",
+                "uri": "spotify:artist:7q6wy08a2IA2NeNfpwBnaB"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 264000,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/4IAXFNAfZn2WNln923BzV9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4IAXFNAfZn2WNln923BzV9",
+        "id": "4IAXFNAfZn2WNln923BzV9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "tanktop",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4IAXFNAfZn2WNln923BzV9"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 192946,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3JkgL0T0C7c3xdH5rweNkf"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3JkgL0T0C7c3xdH5rweNkf",
+        "id": "3JkgL0T0C7c3xdH5rweNkf",
+        "is_local": false,
+        "is_playable": true,
+        "name": "ZIP",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:3JkgL0T0C7c3xdH5rweNkf"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2XsT1ReJB0oZykMLN0bEun"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2XsT1ReJB0oZykMLN0bEun",
+                    "id": "2XsT1ReJB0oZykMLN0bEun",
+                    "name": "GOKO!",
+                    "type": "artist",
+                    "uri": "spotify:artist:2XsT1ReJB0oZykMLN0bEun"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6bG4AQ3km43rdtmEt4HhNH"
+            },
+            "href": "https://api.spotify.com/v1/albums/6bG4AQ3km43rdtmEt4HhNH",
+            "id": "6bG4AQ3km43rdtmEt4HhNH",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fa72d1884a5ed7ccc23fc534",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fa72d1884a5ed7ccc23fc534",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851fa72d1884a5ed7ccc23fc534",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "TOTEM",
+            "release_date": "2022-07-19",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:6bG4AQ3km43rdtmEt4HhNH"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2XsT1ReJB0oZykMLN0bEun"
+                },
+                "href": "https://api.spotify.com/v1/artists/2XsT1ReJB0oZykMLN0bEun",
+                "id": "2XsT1ReJB0oZykMLN0bEun",
+                "name": "GOKO!",
+                "type": "artist",
+                "uri": "spotify:artist:2XsT1ReJB0oZykMLN0bEun"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 178532,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/4XVuzZAc7SCoM6R7L0WGLh"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4XVuzZAc7SCoM6R7L0WGLh",
+        "id": "4XVuzZAc7SCoM6R7L0WGLh",
+        "is_local": false,
+        "is_playable": true,
+        "name": "TOTEM",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4XVuzZAc7SCoM6R7L0WGLh"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5chlGLYjNChbXjDbojObt5"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5chlGLYjNChbXjDbojObt5",
+                    "id": "5chlGLYjNChbXjDbojObt5",
+                    "name": "EGE!",
+                    "type": "artist",
+                    "uri": "spotify:artist:5chlGLYjNChbXjDbojObt5"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/0p5NmwhoU9BIMOtwCOAHyL"
+            },
+            "href": "https://api.spotify.com/v1/albums/0p5NmwhoU9BIMOtwCOAHyL",
+            "id": "0p5NmwhoU9BIMOtwCOAHyL",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f65d1fc748791a4dfa39679c",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f65d1fc748791a4dfa39679c",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f65d1fc748791a4dfa39679c",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Uzan Gibi",
+            "release_date": "2025-02-07",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:0p5NmwhoU9BIMOtwCOAHyL"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5chlGLYjNChbXjDbojObt5"
+                },
+                "href": "https://api.spotify.com/v1/artists/5chlGLYjNChbXjDbojObt5",
+                "id": "5chlGLYjNChbXjDbojObt5",
+                "name": "EGE!",
+                "type": "artist",
+                "uri": "spotify:artist:5chlGLYjNChbXjDbojObt5"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 180375,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/0z8cX0YcRS07woAjNMSHTm"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0z8cX0YcRS07woAjNMSHTm",
+        "id": "0z8cX0YcRS07woAjNMSHTm",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Uzan Gibi",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0z8cX0YcRS07woAjNMSHTm"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 154305,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/12XZhrRvfr7FiGN2Tv6mdU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/12XZhrRvfr7FiGN2Tv6mdU",
+        "id": "12XZhrRvfr7FiGN2Tv6mdU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "RESTORAN",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:12XZhrRvfr7FiGN2Tv6mdU"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+            },
+            "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+            "id": "4eLPsYPBmXABThSJ821sqY",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b52c6b9bc4e43d873869699",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048518b52c6b9bc4e43d873869699",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "DAMN.",
+            "release_date": "2017-04-14",
+            "release_date_precision": "day",
+            "total_tracks": 14,
+            "type": "album",
+            "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                },
+                "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                "name": "Kendrick Lamar",
+                "type": "artist",
+                "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 185946,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6HZILIRieu8S0iqY8kIKhj",
+        "id": "6HZILIRieu8S0iqY8kIKhj",
+        "is_local": false,
+        "is_playable": true,
+        "name": "DNA.",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:6HZILIRieu8S0iqY8kIKhj"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1qKIiOyjWNYf1xshikhwQE"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1qKIiOyjWNYf1xshikhwQE",
+                    "id": "1qKIiOyjWNYf1xshikhwQE",
+                    "name": "Jefe",
+                    "type": "artist",
+                    "uri": "spotify:artist:1qKIiOyjWNYf1xshikhwQE"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/0r6ROuI3w414QKFxN5U1cu"
+            },
+            "href": "https://api.spotify.com/v1/albums/0r6ROuI3w414QKFxN5U1cu",
+            "id": "0r6ROuI3w414QKFxN5U1cu",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b0032db79862b68dea867a94",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b0032db79862b68dea867a94",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b0032db79862b68dea867a94",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "MİLENYUM+",
+            "release_date": "2025-11-07",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:0r6ROuI3w414QKFxN5U1cu"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1qKIiOyjWNYf1xshikhwQE"
+                },
+                "href": "https://api.spotify.com/v1/artists/1qKIiOyjWNYf1xshikhwQE",
+                "id": "1qKIiOyjWNYf1xshikhwQE",
+                "name": "Jefe",
+                "type": "artist",
+                "uri": "spotify:artist:1qKIiOyjWNYf1xshikhwQE"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 139799,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/7b6Ds6mdgnMK4OoU4zqFXr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7b6Ds6mdgnMK4OoU4zqFXr",
+        "id": "7b6Ds6mdgnMK4OoU4zqFXr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "BLUE LANES",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:7b6Ds6mdgnMK4OoU4zqFXr"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                    "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                    "name": "Ezhel",
+                    "type": "artist",
+                    "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7pSGtJE2RQjIGwdkgKZpwY"
+            },
+            "href": "https://api.spotify.com/v1/albums/7pSGtJE2RQjIGwdkgKZpwY",
+            "id": "7pSGtJE2RQjIGwdkgKZpwY",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2733caf798b8cb202d543f85bd7",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e023caf798b8cb202d543f85bd7",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048513caf798b8cb202d543f85bd7",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Derdo",
+            "release_date": "2024-11-22",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:7pSGtJE2RQjIGwdkgKZpwY"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                },
+                "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                "name": "Ezhel",
+                "type": "artist",
+                "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 136510,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/7ACcQiESJvyTQ4oS5CGP8C"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7ACcQiESJvyTQ4oS5CGP8C",
+        "id": "7ACcQiESJvyTQ4oS5CGP8C",
+        "is_local": false,
+        "is_playable": true,
+        "name": "12",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:7ACcQiESJvyTQ4oS5CGP8C"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2WjzL05RyqIk5n53sZc9nf",
+                    "id": "2WjzL05RyqIk5n53sZc9nf",
+                    "name": "manifest",
+                    "type": "artist",
+                    "uri": "spotify:artist:2WjzL05RyqIk5n53sZc9nf"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/1XfKv2avb7ICbTN97X58Bc"
+            },
+            "href": "https://api.spotify.com/v1/albums/1XfKv2avb7ICbTN97X58Bc",
+            "id": "1XfKv2avb7ICbTN97X58Bc",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ccb96d4a469a73aff0706316",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ccb96d4a469a73aff0706316",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851ccb96d4a469a73aff0706316",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Amatör",
+            "release_date": "2025-12-05",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:1XfKv2avb7ICbTN97X58Bc"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+                },
+                "href": "https://api.spotify.com/v1/artists/2WjzL05RyqIk5n53sZc9nf",
+                "id": "2WjzL05RyqIk5n53sZc9nf",
+                "name": "manifest",
+                "type": "artist",
+                "uri": "spotify:artist:2WjzL05RyqIk5n53sZc9nf"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 163809,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/4yHSp3OunMQmvSbIgy2Hhm"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4yHSp3OunMQmvSbIgy2Hhm",
+        "id": "4yHSp3OunMQmvSbIgy2Hhm",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Amatör",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4yHSp3OunMQmvSbIgy2Hhm"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 170322,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1h0pOyPxncpLVAdj1j9nEj"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1h0pOyPxncpLVAdj1j9nEj",
+        "id": "1h0pOyPxncpLVAdj1j9nEj",
+        "is_local": false,
+        "is_playable": true,
+        "name": "ONE SHOT FREESTYLE",
+        "track_number": 17,
+        "type": "track",
+        "uri": "spotify:track:1h0pOyPxncpLVAdj1j9nEj"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 135459,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/7Ikg74SQrxu5DMpEEbestg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7Ikg74SQrxu5DMpEEbestg",
+        "id": "7Ikg74SQrxu5DMpEEbestg",
+        "is_local": false,
+        "is_playable": true,
+        "name": "HANIMEFENDİ",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:7Ikg74SQrxu5DMpEEbestg"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                    "id": "19YsBPYDyAmKbcFoor4W4e",
+                    "name": "Baneva",
+                    "type": "artist",
+                    "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6P9u2ip7gJ0UBhW6w9ivWt"
+            },
+            "href": "https://api.spotify.com/v1/albums/6P9u2ip7gJ0UBhW6w9ivWt",
+            "id": "6P9u2ip7gJ0UBhW6w9ivWt",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b614980475db38b291e48e07",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b614980475db38b291e48e07",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b614980475db38b291e48e07",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "BLEND",
+            "release_date": "2023-12-01",
+            "release_date_precision": "day",
+            "total_tracks": 11,
+            "type": "album",
+            "uri": "spotify:album:6P9u2ip7gJ0UBhW6w9ivWt"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                },
+                "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                "id": "19YsBPYDyAmKbcFoor4W4e",
+                "name": "Baneva",
+                "type": "artist",
+                "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 210000,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/27DPAaH0Fg8dxUbsdYPzi9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/27DPAaH0Fg8dxUbsdYPzi9",
+        "id": "27DPAaH0Fg8dxUbsdYPzi9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "YÜZÜK",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:27DPAaH0Fg8dxUbsdYPzi9"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                    "id": "747jtvVsxwzOLCJeOOz3oT",
+                    "name": "Wegh",
+                    "type": "artist",
+                    "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/51y5OLSxt06tGylhpniMrB"
+            },
+            "href": "https://api.spotify.com/v1/albums/51y5OLSxt06tGylhpniMrB",
+            "id": "51y5OLSxt06tGylhpniMrB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d1db044bb7f55a9f0e302b73",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d1db044bb7f55a9f0e302b73",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d1db044bb7f55a9f0e302b73",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Tütün ve Votka",
+            "release_date": "2025-12-19",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:51y5OLSxt06tGylhpniMrB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                },
+                "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                "id": "747jtvVsxwzOLCJeOOz3oT",
+                "name": "Wegh",
+                "type": "artist",
+                "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 104427,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3rChwQtcybuGqF5kfob8mw"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3rChwQtcybuGqF5kfob8mw",
+        "id": "3rChwQtcybuGqF5kfob8mw",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Tütün ve Votka",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3rChwQtcybuGqF5kfob8mw"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW"
+            },
+            "href": "https://api.spotify.com/v1/albums/0hvT3yIEysuuvkK73vgdcW",
+            "id": "0hvT3yIEysuuvkK73vgdcW",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d9985092cd88bffd97653b58",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d9985092cd88bffd97653b58",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "GNX",
+            "release_date": "2024-11-22",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:0hvT3yIEysuuvkK73vgdcW"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                },
+                "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                "name": "Kendrick Lamar",
+                "type": "artist",
+                "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                },
+                "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                "name": "SZA",
+                "type": "artist",
+                "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 177598,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/45J4avUb9Ni0bnETYaYFVJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/45J4avUb9Ni0bnETYaYFVJ",
+        "id": "45J4avUb9Ni0bnETYaYFVJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "luther (with sza)",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:45J4avUb9Ni0bnETYaYFVJ"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3UjYlRGpDMTCc7hpLcjLo3"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3UjYlRGpDMTCc7hpLcjLo3",
+                    "id": "3UjYlRGpDMTCc7hpLcjLo3",
+                    "name": "kaanwein",
+                    "type": "artist",
+                    "uri": "spotify:artist:3UjYlRGpDMTCc7hpLcjLo3"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5kCQqFcm5AZ9vQKgzWnW3s"
+            },
+            "href": "https://api.spotify.com/v1/albums/5kCQqFcm5AZ9vQKgzWnW3s",
+            "id": "5kCQqFcm5AZ9vQKgzWnW3s",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d0cef29d26c3b1ad13229129",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d0cef29d26c3b1ad13229129",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d0cef29d26c3b1ad13229129",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "KAANWEIN TARZ",
+            "release_date": "2026-01-02",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:5kCQqFcm5AZ9vQKgzWnW3s"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3UjYlRGpDMTCc7hpLcjLo3"
+                },
+                "href": "https://api.spotify.com/v1/artists/3UjYlRGpDMTCc7hpLcjLo3",
+                "id": "3UjYlRGpDMTCc7hpLcjLo3",
+                "name": "kaanwein",
+                "type": "artist",
+                "uri": "spotify:artist:3UjYlRGpDMTCc7hpLcjLo3"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 147000,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/6S4CGHocVIlhMgJ8sI5L8l"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6S4CGHocVIlhMgJ8sI5L8l",
+        "id": "6S4CGHocVIlhMgJ8sI5L8l",
+        "is_local": false,
+        "is_playable": true,
+        "name": "KAANWEIN TARZ",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6S4CGHocVIlhMgJ8sI5L8l"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6vXjdCR5h6lbUeNR6tOXQA"
+            },
+            "href": "https://api.spotify.com/v1/albums/6vXjdCR5h6lbUeNR6tOXQA",
+            "id": "6vXjdCR5h6lbUeNR6tOXQA",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27316daaeb2f3bef09d68ccfcea",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0216daaeb2f3bef09d68ccfcea",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485116daaeb2f3bef09d68ccfcea",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan v1",
+            "release_date": "2024-04-26",
+            "release_date_precision": "day",
+            "total_tracks": 7,
+            "type": "album",
+            "uri": "spotify:album:6vXjdCR5h6lbUeNR6tOXQA"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 164195,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/0ms0jSQEDir8Lf5qrosvgd"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0ms0jSQEDir8Lf5qrosvgd",
+        "id": "0ms0jSQEDir8Lf5qrosvgd",
+        "is_local": false,
+        "is_playable": true,
+        "name": "neptün",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:0ms0jSQEDir8Lf5qrosvgd"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+            },
+            "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+            "id": "4eLPsYPBmXABThSJ821sqY",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b52c6b9bc4e43d873869699",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048518b52c6b9bc4e43d873869699",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "DAMN.",
+            "release_date": "2017-04-14",
+            "release_date_precision": "day",
+            "total_tracks": 14,
+            "type": "album",
+            "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                },
+                "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                "name": "Kendrick Lamar",
+                "type": "artist",
+                "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H"
+                },
+                "href": "https://api.spotify.com/v1/artists/5pKCCKE2ajJHZ9KAiaK11H",
+                "id": "5pKCCKE2ajJHZ9KAiaK11H",
+                "name": "Rihanna",
+                "type": "artist",
+                "uri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 227360,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/6SwRhMLwNqEi6alNPVG00n"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6SwRhMLwNqEi6alNPVG00n",
+        "id": "6SwRhMLwNqEi6alNPVG00n",
+        "is_local": false,
+        "is_playable": true,
+        "name": "LOYALTY. FEAT. RIHANNA.",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:6SwRhMLwNqEi6alNPVG00n"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                    "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                    "name": "Ezhel",
+                    "type": "artist",
+                    "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3FvwVFWRyvxmLyVBO9nBmM"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3FvwVFWRyvxmLyVBO9nBmM",
+                    "id": "3FvwVFWRyvxmLyVBO9nBmM",
+                    "name": "COLORS",
+                    "type": "artist",
+                    "uri": "spotify:artist:3FvwVFWRyvxmLyVBO9nBmM"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/3gB3811FmHxYiiZANdFFMp"
+            },
+            "href": "https://api.spotify.com/v1/albums/3gB3811FmHxYiiZANdFFMp",
+            "id": "3gB3811FmHxYiiZANdFFMp",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2733ed4d458006789fbe30153e9",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e023ed4d458006789fbe30153e9",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048513ed4d458006789fbe30153e9",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "KEDI - A COLORS SHOW",
+            "release_date": "2024-11-07",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:3gB3811FmHxYiiZANdFFMp"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6LnJKrtFnTEGdbWQ2riWCL"
+                },
+                "href": "https://api.spotify.com/v1/artists/6LnJKrtFnTEGdbWQ2riWCL",
+                "id": "6LnJKrtFnTEGdbWQ2riWCL",
+                "name": "Ezhel",
+                "type": "artist",
+                "uri": "spotify:artist:6LnJKrtFnTEGdbWQ2riWCL"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3FvwVFWRyvxmLyVBO9nBmM"
+                },
+                "href": "https://api.spotify.com/v1/artists/3FvwVFWRyvxmLyVBO9nBmM",
+                "id": "3FvwVFWRyvxmLyVBO9nBmM",
+                "name": "COLORS",
+                "type": "artist",
+                "uri": "spotify:artist:3FvwVFWRyvxmLyVBO9nBmM"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 130741,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3VbsaDjBCDjy8kRjXFDb4D"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3VbsaDjBCDjy8kRjXFDb4D",
+        "id": "3VbsaDjBCDjy8kRjXFDb4D",
+        "is_local": false,
+        "is_playable": true,
+        "name": "KEDI - A COLORS SHOW",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3VbsaDjBCDjy8kRjXFDb4D"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2WjzL05RyqIk5n53sZc9nf",
+                    "id": "2WjzL05RyqIk5n53sZc9nf",
+                    "name": "manifest",
+                    "type": "artist",
+                    "uri": "spotify:artist:2WjzL05RyqIk5n53sZc9nf"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/15p1byCMc7mi42zFKUziBJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/15p1byCMc7mi42zFKUziBJ",
+            "id": "15p1byCMc7mi42zFKUziBJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273be1b34819d010b15ea80f518",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02be1b34819d010b15ea80f518",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851be1b34819d010b15ea80f518",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "manifestival",
+            "release_date": "2025-06-13",
+            "release_date_precision": "day",
+            "total_tracks": 11,
+            "type": "album",
+            "uri": "spotify:album:15p1byCMc7mi42zFKUziBJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+                },
+                "href": "https://api.spotify.com/v1/artists/2WjzL05RyqIk5n53sZc9nf",
+                "id": "2WjzL05RyqIk5n53sZc9nf",
+                "name": "manifest",
+                "type": "artist",
+                "uri": "spotify:artist:2WjzL05RyqIk5n53sZc9nf"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 146517,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/0rFE7maWOD4JFeG1wukeiB"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0rFE7maWOD4JFeG1wukeiB",
+        "id": "0rFE7maWOD4JFeG1wukeiB",
+        "is_local": false,
+        "is_playable": true,
+        "name": "KTS",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:0rFE7maWOD4JFeG1wukeiB"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 152187,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/2F5zDoky5fcblVvjYUlVWI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2F5zDoky5fcblVvjYUlVWI",
+        "id": "2F5zDoky5fcblVvjYUlVWI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "RANDEVU",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:2F5zDoky5fcblVvjYUlVWI"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                    "id": "51DevdOxIJin6DB1FXJpD1",
+                    "name": "UZI",
+                    "type": "artist",
+                    "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3nJwTniwCxDrgoVKeqIWoT"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3nJwTniwCxDrgoVKeqIWoT",
+                    "id": "3nJwTniwCxDrgoVKeqIWoT",
+                    "name": "Modd",
+                    "type": "artist",
+                    "uri": "spotify:artist:3nJwTniwCxDrgoVKeqIWoT"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/1DFSUGasEQxrOfFkXQiDPT"
+            },
+            "href": "https://api.spotify.com/v1/albums/1DFSUGasEQxrOfFkXQiDPT",
+            "id": "1DFSUGasEQxrOfFkXQiDPT",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e5ac1b15241a6095a3077a8c",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e5ac1b15241a6095a3077a8c",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e5ac1b15241a6095a3077a8c",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "WAG1",
+            "release_date": "2025-08-07",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:1DFSUGasEQxrOfFkXQiDPT"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                },
+                "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                "id": "51DevdOxIJin6DB1FXJpD1",
+                "name": "UZI",
+                "type": "artist",
+                "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3nJwTniwCxDrgoVKeqIWoT"
+                },
+                "href": "https://api.spotify.com/v1/artists/3nJwTniwCxDrgoVKeqIWoT",
+                "id": "3nJwTniwCxDrgoVKeqIWoT",
+                "name": "Modd",
+                "type": "artist",
+                "uri": "spotify:artist:3nJwTniwCxDrgoVKeqIWoT"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 126401,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/4yrIO5r0yw9MBKJ1nrHcF7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4yrIO5r0yw9MBKJ1nrHcF7",
+        "id": "4yrIO5r0yw9MBKJ1nrHcF7",
+        "is_local": false,
+        "is_playable": true,
+        "name": "WAG1",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4yrIO5r0yw9MBKJ1nrHcF7"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 184182,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1HPYGaSGPzz1QVnjCffc1f"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1HPYGaSGPzz1QVnjCffc1f",
+        "id": "1HPYGaSGPzz1QVnjCffc1f",
+        "is_local": false,
+        "is_playable": true,
+        "name": "DAMLA",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1HPYGaSGPzz1QVnjCffc1f"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/76gCQtIoyzxs0HDKIyQC66"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/76gCQtIoyzxs0HDKIyQC66",
+                    "id": "76gCQtIoyzxs0HDKIyQC66",
+                    "name": "Keskin",
+                    "type": "artist",
+                    "uri": "spotify:artist:76gCQtIoyzxs0HDKIyQC66"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                    "id": "747jtvVsxwzOLCJeOOz3oT",
+                    "name": "Wegh",
+                    "type": "artist",
+                    "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5zZ36nu81XoL3vA4VeZhn7"
+            },
+            "href": "https://api.spotify.com/v1/albums/5zZ36nu81XoL3vA4VeZhn7",
+            "id": "5zZ36nu81XoL3vA4VeZhn7",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737288cf9b5fe4d49846fdcb26",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e027288cf9b5fe4d49846fdcb26",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048517288cf9b5fe4d49846fdcb26",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "55-53",
+            "release_date": "2025-05-09",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:5zZ36nu81XoL3vA4VeZhn7"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/76gCQtIoyzxs0HDKIyQC66"
+                },
+                "href": "https://api.spotify.com/v1/artists/76gCQtIoyzxs0HDKIyQC66",
+                "id": "76gCQtIoyzxs0HDKIyQC66",
+                "name": "Keskin",
+                "type": "artist",
+                "uri": "spotify:artist:76gCQtIoyzxs0HDKIyQC66"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                },
+                "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                "id": "747jtvVsxwzOLCJeOOz3oT",
+                "name": "Wegh",
+                "type": "artist",
+                "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 118506,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1X2dVSqwG22eENVjazeAB2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1X2dVSqwG22eENVjazeAB2",
+        "id": "1X2dVSqwG22eENVjazeAB2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "55-53",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1X2dVSqwG22eENVjazeAB2"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 137270,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3730z7N28rvWW4PpSXR7PY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3730z7N28rvWW4PpSXR7PY",
+        "id": "3730z7N28rvWW4PpSXR7PY",
+        "is_local": false,
+        "is_playable": true,
+        "name": "ROMANTİK",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:3730z7N28rvWW4PpSXR7PY"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                    "id": "19YsBPYDyAmKbcFoor4W4e",
+                    "name": "Baneva",
+                    "type": "artist",
+                    "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6P9u2ip7gJ0UBhW6w9ivWt"
+            },
+            "href": "https://api.spotify.com/v1/albums/6P9u2ip7gJ0UBhW6w9ivWt",
+            "id": "6P9u2ip7gJ0UBhW6w9ivWt",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b614980475db38b291e48e07",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b614980475db38b291e48e07",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b614980475db38b291e48e07",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "BLEND",
+            "release_date": "2023-12-01",
+            "release_date_precision": "day",
+            "total_tracks": 11,
+            "type": "album",
+            "uri": "spotify:album:6P9u2ip7gJ0UBhW6w9ivWt"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                },
+                "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                "id": "19YsBPYDyAmKbcFoor4W4e",
+                "name": "Baneva",
+                "type": "artist",
+                "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 180645,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/4hPdBIvTj8QbvsJGOvgZyc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4hPdBIvTj8QbvsJGOvgZyc",
+        "id": "4hPdBIvTj8QbvsJGOvgZyc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "B!",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4hPdBIvTj8QbvsJGOvgZyc"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/09Tg4f9e4j80dkIcwJ5YI4"
+            },
+            "href": "https://api.spotify.com/v1/albums/09Tg4f9e4j80dkIcwJ5YI4",
+            "id": "09Tg4f9e4j80dkIcwJ5YI4",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f012fa359f1583c1d17b38b1",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f012fa359f1583c1d17b38b1",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f012fa359f1583c1d17b38b1",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "10MG",
+            "release_date": "2022-11-18",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:09Tg4f9e4j80dkIcwJ5YI4"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 141968,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1MbZ6YY51arGV7mqeAb0y4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1MbZ6YY51arGV7mqeAb0y4",
+        "id": "1MbZ6YY51arGV7mqeAb0y4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "10MG",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1MbZ6YY51arGV7mqeAb0y4"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/4S37FYWdzEt0yJivzUIZFg"
+            },
+            "href": "https://api.spotify.com/v1/albums/4S37FYWdzEt0yJivzUIZFg",
+            "id": "4S37FYWdzEt0yJivzUIZFg",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735f0f017c3f5037910086be0b",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e025f0f017c3f5037910086be0b",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048515f0f017c3f5037910086be0b",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "bir",
+            "release_date": "2024-11-01",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:4S37FYWdzEt0yJivzUIZFg"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 197538,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1n8qmohilJOAog1PmMCTZM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1n8qmohilJOAog1PmMCTZM",
+        "id": "1n8qmohilJOAog1PmMCTZM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "bir",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1n8qmohilJOAog1PmMCTZM"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5xrtVOLOp6Yh3hmw8SuJVB"
+            },
+            "href": "https://api.spotify.com/v1/albums/5xrtVOLOp6Yh3hmw8SuJVB",
+            "id": "5xrtVOLOp6Yh3hmw8SuJVB",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736896a56bc4c6785fb0bce69d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e026896a56bc4c6785fb0bce69d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048516896a56bc4c6785fb0bce69d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ROMANTİK",
+            "release_date": "2023-06-16",
+            "release_date_precision": "day",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5xrtVOLOp6Yh3hmw8SuJVB"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 117326,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/0pWzmXAAUuVbgmUE46EmAX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0pWzmXAAUuVbgmUE46EmAX",
+        "id": "0pWzmXAAUuVbgmUE46EmAX",
+        "is_local": false,
+        "is_playable": true,
+        "name": "MAN DOWN FREESTYLE",
+        "track_number": 16,
+        "type": "track",
+        "uri": "spotify:track:0pWzmXAAUuVbgmUE46EmAX"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+                    "id": "3TVXtAsR1Inumwj472S9r4",
+                    "name": "Drake",
+                    "type": "artist",
+                    "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+                    "id": "1URnnhqYAYcrqrcwql10ft",
+                    "name": "21 Savage",
+                    "type": "artist",
+                    "uri": "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/5MS3MvWHJ3lOZPLiMxzOU6"
+            },
+            "href": "https://api.spotify.com/v1/albums/5MS3MvWHJ3lOZPLiMxzOU6",
+            "id": "5MS3MvWHJ3lOZPLiMxzOU6",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27302854a7060fccc1a66a4b5ad",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0202854a7060fccc1a66a4b5ad",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485102854a7060fccc1a66a4b5ad",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Her Loss",
+            "release_date": "2022-11-04",
+            "release_date_precision": "day",
+            "total_tracks": 16,
+            "type": "album",
+            "uri": "spotify:album:5MS3MvWHJ3lOZPLiMxzOU6"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+                },
+                "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+                "id": "3TVXtAsR1Inumwj472S9r4",
+                "name": "Drake",
+                "type": "artist",
+                "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+                },
+                "href": "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+                "id": "1URnnhqYAYcrqrcwql10ft",
+                "name": "21 Savage",
+                "type": "artist",
+                "uri": "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 170501,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/46s57QULU02Voy0Kup6UEb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/46s57QULU02Voy0Kup6UEb",
+        "id": "46s57QULU02Voy0Kup6UEb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Major Distribution",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:46s57QULU02Voy0Kup6UEb"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                    "id": "747jtvVsxwzOLCJeOOz3oT",
+                    "name": "Wegh",
+                    "type": "artist",
+                    "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/42RLYxey9xLOaESHzuCUfO"
+            },
+            "href": "https://api.spotify.com/v1/albums/42RLYxey9xLOaESHzuCUfO",
+            "id": "42RLYxey9xLOaESHzuCUfO",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a81b13a539eec67b0c145f8d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a81b13a539eec67b0c145f8d",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851a81b13a539eec67b0c145f8d",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "16-24",
+            "release_date": "2025-02-07",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:42RLYxey9xLOaESHzuCUfO"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                },
+                "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                "id": "747jtvVsxwzOLCJeOOz3oT",
+                "name": "Wegh",
+                "type": "artist",
+                "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 147000,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/09tHyS9ROJEhXHWj8NpYMi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/09tHyS9ROJEhXHWj8NpYMi",
+        "id": "09tHyS9ROJEhXHWj8NpYMi",
+        "is_local": false,
+        "is_playable": true,
+        "name": "16-24",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:09tHyS9ROJEhXHWj8NpYMi"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3VooEK5HkkcSc4Tv7FCBzb"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3VooEK5HkkcSc4Tv7FCBzb",
+                    "id": "3VooEK5HkkcSc4Tv7FCBzb",
+                    "name": "Yung Ouzo",
+                    "type": "artist",
+                    "uri": "spotify:artist:3VooEK5HkkcSc4Tv7FCBzb"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/03XaOdXeTAdCl6KHKrxtoJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/03XaOdXeTAdCl6KHKrxtoJ",
+            "id": "03XaOdXeTAdCl6KHKrxtoJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e4ef483cb714b67704006955",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e4ef483cb714b67704006955",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e4ef483cb714b67704006955",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "ON NUMARA",
+            "release_date": "2025-08-15",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:03XaOdXeTAdCl6KHKrxtoJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3VooEK5HkkcSc4Tv7FCBzb"
+                },
+                "href": "https://api.spotify.com/v1/artists/3VooEK5HkkcSc4Tv7FCBzb",
+                "id": "3VooEK5HkkcSc4Tv7FCBzb",
+                "name": "Yung Ouzo",
+                "type": "artist",
+                "uri": "spotify:artist:3VooEK5HkkcSc4Tv7FCBzb"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 116129,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3zXcj2N8bLNRXwYHLaSjrL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3zXcj2N8bLNRXwYHLaSjrL",
+        "id": "3zXcj2N8bLNRXwYHLaSjrL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "ON NUMARA",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3zXcj2N8bLNRXwYHLaSjrL"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                    "id": "19YsBPYDyAmKbcFoor4W4e",
+                    "name": "Baneva",
+                    "type": "artist",
+                    "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6P9u2ip7gJ0UBhW6w9ivWt"
+            },
+            "href": "https://api.spotify.com/v1/albums/6P9u2ip7gJ0UBhW6w9ivWt",
+            "id": "6P9u2ip7gJ0UBhW6w9ivWt",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b614980475db38b291e48e07",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b614980475db38b291e48e07",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b614980475db38b291e48e07",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "BLEND",
+            "release_date": "2023-12-01",
+            "release_date_precision": "day",
+            "total_tracks": 11,
+            "type": "album",
+            "uri": "spotify:album:6P9u2ip7gJ0UBhW6w9ivWt"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                },
+                "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                "id": "19YsBPYDyAmKbcFoor4W4e",
+                "name": "Baneva",
+                "type": "artist",
+                "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 222000,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/5430SHLhqEgvGEo1TkiZz3"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5430SHLhqEgvGEo1TkiZz3",
+        "id": "5430SHLhqEgvGEo1TkiZz3",
+        "is_local": false,
+        "is_playable": true,
+        "name": "DANK",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5430SHLhqEgvGEo1TkiZz3"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                    "id": "51DevdOxIJin6DB1FXJpD1",
+                    "name": "UZI",
+                    "type": "artist",
+                    "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7wOVZ7Rjv27Gl0kuMhEAyS"
+            },
+            "href": "https://api.spotify.com/v1/albums/7wOVZ7Rjv27Gl0kuMhEAyS",
+            "id": "7wOVZ7Rjv27Gl0kuMhEAyS",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f28269ed4bbcd8ebc756d198",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f28269ed4bbcd8ebc756d198",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f28269ed4bbcd8ebc756d198",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Mortal Kombat",
+            "release_date": "2026-01-23",
+            "release_date_precision": "day",
+            "total_tracks": 9,
+            "type": "album",
+            "uri": "spotify:album:7wOVZ7Rjv27Gl0kuMhEAyS"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/51DevdOxIJin6DB1FXJpD1"
+                },
+                "href": "https://api.spotify.com/v1/artists/51DevdOxIJin6DB1FXJpD1",
+                "id": "51DevdOxIJin6DB1FXJpD1",
+                "name": "UZI",
+                "type": "artist",
+                "uri": "spotify:artist:51DevdOxIJin6DB1FXJpD1"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 155726,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1nRhCshF9nYpTZr0yM4mKS"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1nRhCshF9nYpTZr0yM4mKS",
+        "id": "1nRhCshF9nYpTZr0yM4mKS",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cennet",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:1nRhCshF9nYpTZr0yM4mKS"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                    "id": "19YsBPYDyAmKbcFoor4W4e",
+                    "name": "Baneva",
+                    "type": "artist",
+                    "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/6P9u2ip7gJ0UBhW6w9ivWt"
+            },
+            "href": "https://api.spotify.com/v1/albums/6P9u2ip7gJ0UBhW6w9ivWt",
+            "id": "6P9u2ip7gJ0UBhW6w9ivWt",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b614980475db38b291e48e07",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b614980475db38b291e48e07",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b614980475db38b291e48e07",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "BLEND",
+            "release_date": "2023-12-01",
+            "release_date_precision": "day",
+            "total_tracks": 11,
+            "type": "album",
+            "uri": "spotify:album:6P9u2ip7gJ0UBhW6w9ivWt"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/19YsBPYDyAmKbcFoor4W4e"
+                },
+                "href": "https://api.spotify.com/v1/artists/19YsBPYDyAmKbcFoor4W4e",
+                "id": "19YsBPYDyAmKbcFoor4W4e",
+                "name": "Baneva",
+                "type": "artist",
+                "uri": "spotify:artist:19YsBPYDyAmKbcFoor4W4e"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 175294,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/6IIXirTrL8ueg7a0jTAc9t"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6IIXirTrL8ueg7a0jTAc9t",
+        "id": "6IIXirTrL8ueg7a0jTAc9t",
+        "is_local": false,
+        "is_playable": true,
+        "name": "EĞLEN",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:6IIXirTrL8ueg7a0jTAc9t"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                    "id": "747jtvVsxwzOLCJeOOz3oT",
+                    "name": "Wegh",
+                    "type": "artist",
+                    "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7wHTQvIXsj6ULlSv1QDM0k"
+            },
+            "href": "https://api.spotify.com/v1/albums/7wHTQvIXsj6ULlSv1QDM0k",
+            "id": "7wHTQvIXsj6ULlSv1QDM0k",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a3eddd4d581107185e7d220e",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a3eddd4d581107185e7d220e",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851a3eddd4d581107185e7d220e",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Sana Vuruldum (Ulubatlı Hasan)",
+            "release_date": "2024-06-07",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:7wHTQvIXsj6ULlSv1QDM0k"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/747jtvVsxwzOLCJeOOz3oT"
+                },
+                "href": "https://api.spotify.com/v1/artists/747jtvVsxwzOLCJeOOz3oT",
+                "id": "747jtvVsxwzOLCJeOOz3oT",
+                "name": "Wegh",
+                "type": "artist",
+                "uri": "spotify:artist:747jtvVsxwzOLCJeOOz3oT"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 228000,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/5oYRllIEUix5gkYaml9m5p"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5oYRllIEUix5gkYaml9m5p",
+        "id": "5oYRllIEUix5gkYaml9m5p",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sana Vuruldum (Ulubatlı Hasan)",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:5oYRllIEUix5gkYaml9m5p"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/42jeWT1YU3yKejPa704z25"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/42jeWT1YU3yKejPa704z25",
+                    "id": "42jeWT1YU3yKejPa704z25",
+                    "name": "Hypzex",
+                    "type": "artist",
+                    "uri": "spotify:artist:42jeWT1YU3yKejPa704z25"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/64IgBpUlyEHpDZl4whz622"
+            },
+            "href": "https://api.spotify.com/v1/albums/64IgBpUlyEHpDZl4whz622",
+            "id": "64IgBpUlyEHpDZl4whz622",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273aafaa584b11aae593393357c",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02aafaa584b11aae593393357c",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851aafaa584b11aae593393357c",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "CHAKRA",
+            "release_date": "2022-11-25",
+            "release_date_precision": "day",
+            "total_tracks": 4,
+            "type": "album",
+            "uri": "spotify:album:64IgBpUlyEHpDZl4whz622"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/42jeWT1YU3yKejPa704z25"
+                },
+                "href": "https://api.spotify.com/v1/artists/42jeWT1YU3yKejPa704z25",
+                "id": "42jeWT1YU3yKejPa704z25",
+                "name": "Hypzex",
+                "type": "artist",
+                "uri": "spotify:artist:42jeWT1YU3yKejPa704z25"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 113777,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3uIXZIHa8mFJRKqSx1Mg60"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3uIXZIHa8mFJRKqSx1Mg60",
+        "id": "3uIXZIHa8mFJRKqSx1Mg60",
+        "is_local": false,
+        "is_playable": true,
+        "name": "DoubleCup",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3uIXZIHa8mFJRKqSx1Mg60"
+    },
+    {
+        "album": {
+            "album_type": "single",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0L3wrFI3QcbXAvFL7IaPQX"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0L3wrFI3QcbXAvFL7IaPQX",
+                    "id": "0L3wrFI3QcbXAvFL7IaPQX",
+                    "name": "Güneş",
+                    "type": "artist",
+                    "uri": "spotify:artist:0L3wrFI3QcbXAvFL7IaPQX"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/1tZ0jzNknHwfwAL82Lgzpf"
+            },
+            "href": "https://api.spotify.com/v1/albums/1tZ0jzNknHwfwAL82Lgzpf",
+            "id": "1tZ0jzNknHwfwAL82Lgzpf",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738c3794ff736a4f16c8201049",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e028c3794ff736a4f16c8201049",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048518c3794ff736a4f16c8201049",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "Klişe Masallar",
+            "release_date": "2024-09-20",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:1tZ0jzNknHwfwAL82Lgzpf"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0L3wrFI3QcbXAvFL7IaPQX"
+                },
+                "href": "https://api.spotify.com/v1/artists/0L3wrFI3QcbXAvFL7IaPQX",
+                "id": "0L3wrFI3QcbXAvFL7IaPQX",
+                "name": "Güneş",
+                "type": "artist",
+                "uri": "spotify:artist:0L3wrFI3QcbXAvFL7IaPQX"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 166754,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1AebpV6yEV2kD7KPv70Pro"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1AebpV6yEV2kD7KPv70Pro",
+        "id": "1AebpV6yEV2kD7KPv70Pro",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Klişe Masallar",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1AebpV6yEV2kD7KPv70Pro"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                    "id": "6sBSLIunx1Je0Y2T77wpkP",
+                    "name": "Motive",
+                    "type": "artist",
+                    "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/7emP6O2oqpLPEOhKaBceCJ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7emP6O2oqpLPEOhKaBceCJ",
+            "id": "7emP6O2oqpLPEOhKaBceCJ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334dda81314ba372b48a0d8f",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334dda81314ba372b48a0d8f",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851334dda81314ba372b48a0d8f",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "taycan",
+            "release_date": "2024-11-29",
+            "release_date_precision": "day",
+            "total_tracks": 20,
+            "type": "album",
+            "uri": "spotify:album:7emP6O2oqpLPEOhKaBceCJ"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+                },
+                "href": "https://api.spotify.com/v1/artists/6sBSLIunx1Je0Y2T77wpkP",
+                "id": "6sBSLIunx1Je0Y2T77wpkP",
+                "name": "Motive",
+                "type": "artist",
+                "uri": "spotify:artist:6sBSLIunx1Je0Y2T77wpkP"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 163765,
+        "explicit": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/3eIAfJx6wZ9NEl3Fkih97T"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3eIAfJx6wZ9NEl3Fkih97T",
+        "id": "3eIAfJx6wZ9NEl3Fkih97T",
+        "is_local": false,
+        "is_playable": true,
+        "name": "av",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3eIAfJx6wZ9NEl3Fkih97T"
+    },
+    {
+        "album": {
+            "album_type": "album",
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW"
+            },
+            "href": "https://api.spotify.com/v1/albums/0hvT3yIEysuuvkK73vgdcW",
+            "id": "0hvT3yIEysuuvkK73vgdcW",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d9985092cd88bffd97653b58",
+                    "width": 300
+                },
+                {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d9985092cd88bffd97653b58",
+                    "width": 64
+                }
+            ],
+            "is_playable": true,
+            "name": "GNX",
+            "release_date": "2024-11-22",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:0hvT3yIEysuuvkK73vgdcW"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                },
+                "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                "name": "Kendrick Lamar",
+                "type": "artist",
+                "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+            }
+        ],
+        "disc_number": 1,
+        "duration_ms": 292461,
+        "explicit": true,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/track/1SGvjfc85yzqKXsfKcCxn2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1SGvjfc85yzqKXsfKcCxn2",
+        "id": "1SGvjfc85yzqKXsfKcCxn2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "heart pt. 6",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:1SGvjfc85yzqKXsfKcCxn2"
+    }
+]

@@ -8,7 +8,7 @@ import History from "./ui/history";
 import Music from "./ui/music";
 import Artists from "./ui/artists";
 import Albums from "./ui/albums";
-
+import { demoProfile, demoRecent, demoTopTracks, demoTopAlbums, demoTopArtists } from "./data/demoData";
 function Profile() {
     const [searchParams] = useSearchParams();
     const initialPage = searchParams.get("page") || "overview";
@@ -26,6 +26,12 @@ function Profile() {
     const [timeRange, setTimeRange] = useState("long_term");
 
     const getUser = async () => {
+        if (localStorage.getItem("demoMode") === "true") {
+            setName(demoProfile.display_name);
+            setProfilePicture(demoProfile.images?.[0]?.url);
+            setFollower(demoProfile.followers?.total?.toString());
+            return;
+        }
         try {
             const res = await axios.get("/api/me", { withCredentials: true });
             setName(res.data?.display_name || "User");
@@ -38,12 +44,17 @@ function Profile() {
     }
 
     const getRecent = async () => {
+        if (localStorage.getItem("demoMode") === "true") {
+            setRecentTracks(demoRecent);
+            return;
+        }
         try {
             const res = await axios.get("/api/recent", {
                 params: { limit: 50 },
                 withCredentials: true
             });
             setRecentTracks(res.data || []);
+            console.log("Recent tracks: ", JSON.stringify(res.data, null, 2));
         } catch (e) {
             console.error("Failed to fetch recent", e);
             throw e;
@@ -52,6 +63,28 @@ function Profile() {
 
     const getTop = async () => {
         setIsLoading(true);
+        if (localStorage.getItem("demoMode") === "true") {
+            let tTracks = [...demoTopTracks];
+            let tAlbums = [...demoTopAlbums];
+            let tArtists = [...demoTopArtists];
+
+            // Mix up the array depending on the time range to simulate real behavior updates
+            if (timeRange === "short_term") {
+                tTracks.reverse();
+                tAlbums.reverse();
+                tArtists.reverse();
+            } else if (timeRange === "medium_term") {
+                tTracks = [...tTracks.slice(5), ...tTracks.slice(0, 5)];
+                tAlbums = [...tAlbums.slice(3), ...tAlbums.slice(0, 3)];
+                tArtists = [...tArtists.slice(4), ...tArtists.slice(0, 4)];
+            }
+
+            setTopTrackItems(tTracks);
+            setTopAlbumItems(tAlbums);
+            setTopArtistItems(tArtists);
+            setIsLoading(false);
+            return;
+        }
         try {
             const res = await axios.get("/api/top", {
                 params: {
@@ -64,6 +97,9 @@ function Profile() {
             setTopTrackItems(topTrackItems || []);
             setTopAlbumItems(topAlbumItems || []);
             setTopArtistItems(topArtistItems || []);
+            console.log("Top tracks: ", JSON.stringify(topTrackItems, null, 2));
+            console.log("Top albums: ", JSON.stringify(topAlbumItems, null, 2));
+            console.log("Top artists: ", JSON.stringify(topArtistItems, null, 2));
         }
         catch (e) {
             console.error("Failed to fetch top", e);
@@ -78,7 +114,8 @@ function Profile() {
             await Promise.all([getUser(), getRecent()]);
         } catch (e) {
             console.error("Failed to load initial data", e);
-            window.location.href = "/";
+            localStorage.setItem("demoMode", "true");
+            window.location.reload();
         } finally {
             setIsLoading(false);
         }

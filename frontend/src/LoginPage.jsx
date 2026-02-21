@@ -2,10 +2,13 @@ import './css/LoginPage.css'
 import Navbar from '../src/ui/navbar'
 import { Activity, Play } from 'lucide-react'
 import Footer from '../src/ui/footer'
+import { useNavigate } from 'react-router-dom'
 
 function LoginPage() {
+  const navigate = useNavigate();
 
   const login = () => {
+    localStorage.removeItem('demoMode');
     window.location.href = "/api/login-spotify";
   }
 
@@ -29,10 +32,15 @@ function LoginPage() {
           <p className="welcoming-footer slide-up delay-1">Uncover your top tracks, favorite genres, and listening habits with beautiful,
             real-time analytics and visualizers.
           </p>
-          <button className="bottom-button slide-up delay-2" onClick={() => login()}>
-            <p>Get Started</p>
-            <Play size={20} className="play-button" />
-          </button>
+          <div className="button-group slide-up delay-2">
+            <button className="bottom-button" onClick={() => login()}>
+              <p>Get Started</p>
+              <Play size={20} className="play-button" />
+            </button>
+            <button className="bottom-button demo-button" onClick={() => { localStorage.setItem('demoMode', 'true'); window.location.href = '/profile'; }}>
+              <p>Try Demo Mode</p>
+            </button>
+          </div>
         </div>
         <Footer />
       </div>
