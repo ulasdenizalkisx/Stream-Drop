@@ -86,7 +86,6 @@ app.get("/api/login-spotify", (req, res) => {
 
 app.get("/api/auth/spotify/callback", async (req, res) => {
     const { code, state, error } = req.query;
-    console.log("Callback hit. Code:", !!code, "State:", state, "Error:", error);
 
     if (error) {
         return res.status(400).send(`Spotify auth error: ${error}`);
@@ -99,7 +98,6 @@ app.get("/api/auth/spotify/callback", async (req, res) => {
     delete req.session.spotify_oauth_state;
 
     try {
-        console.log("Exchanging code for token with redirect_uri:", process.env.SPOTIFY_REDIRECT_URI);
         const tokenRes = await axios.post("https://accounts.spotify.com/api/token",
             new URLSearchParams({
                 grant_type: "authorization_code",
