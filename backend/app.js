@@ -49,13 +49,15 @@ function computeTopAlbumFromTracks(tracks) {
     return albums;
 }
 
+app.set("trust proxy", 1);
+
 app.use(
     session({
         secret: process.env.SESSION_SECRET,
         resave: false,
         saveUninitialized: false,
         cookie: {
-            secure: false,
+            secure: true,
             httpOnly: true,
             maxAge: 60 * 60 * 1000,
         },
